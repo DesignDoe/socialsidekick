@@ -14,7 +14,7 @@ gem 'bootstrap-sass-extras', '~> 0.0.2'
 gem 'devise', '~> 4.2'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
-gem 'byebug'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -24,7 +24,7 @@ gem 'byebug'
 
 
 group :development, :test do
-  
+  gem 'byebug'
 end
 
 group :development do
